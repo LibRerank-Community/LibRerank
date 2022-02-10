@@ -12,7 +12,7 @@ source venv/bin/activate
 
 #### Install LibRerank from source
 ```
-git clone 
+git clone https://github.com/LibRerank-Community/LibRerank.git
 cd LibRerank
 make init 
 ```
@@ -53,7 +53,7 @@ EGRerank: the implementation of the Evaluator-Generator Reranking in <a href="ht
 
 ### Data
 
-We process two datasets, [Ad](https://tianchi.aliyun.com/dataset/dataDetail?dataId=56) and [PRM Public](https://github.com/rank2rec/rerank), containing user and item features with recommendation lists for the experimentation with personalized re-ranking. The details of [processed datasets]() are summarized in the following table
+We process two datasets, [Ad](https://tianchi.aliyun.com/dataset/dataDetail?dataId=56) and [PRM Public](https://github.com/rank2rec/rerank), containing user and item features with recommendation lists for the experimentation with personalized re-ranking. The details of [processed datasets](https://github.com/LibRerank-Community/LibRerank/tree/master/Data) are summarized in the following table
 
 | Dataset    | #item     | #list     | # user feature | #  item feature |
 | ---------- | --------- | --------- | -------------- | --------------- |
@@ -64,9 +64,9 @@ Depending on the length of the initial ranking, the maximum length of initial li
 
 #### Ad
 
-The original [Ad dataset](https://tianchi.aliyun.com/dataset/dataDetail?dataId=56) records 1 million users and 26 million ad display/click logs, with 8 user profiles (e.g., id, age, and occupation), 6 item features (e.g., id, campaign, and brand). Following previous work, We transform records of each user into ranking lists according to the timestamp of the user browsing the advertisement. Items that have been interacted with within five minutes are sliced into a list. The detailed process is [here]().
+The original [Ad dataset](https://tianchi.aliyun.com/dataset/dataDetail?dataId=56) records 1 million users and 26 million ad display/click logs, with 8 user profiles (e.g., id, age, and occupation), 6 item features (e.g., id, campaign, and brand). Following previous work, We transform records of each user into ranking lists according to the timestamp of the user browsing the advertisement. Items that have been interacted with within five minutes are sliced into a list. The detailed process is [here](https://github.com/LibRerank-Community/LibRerank/blob/master/Data/preprocess_ad.py).
 
 #### PRM public
 
-The original [PRM public dataset](https://github.com/rank2rec/rerank) contains re-ranking lists from a real-world e-commerce RS. Each record is a recommendation list consisting of 3 user profile features, 5 categorical, and 19 dense item features.  Due to the memory limitation, we randomly sample 10% of lists. The detailed process is [here]().
+The original [PRM public dataset](https://github.com/rank2rec/rerank) contains re-ranking lists from a real-world e-commerce RS. Each record is a recommendation list consisting of 3 user profile features, 5 categorical, and 19 dense item features.  Due to the memory limitation, we randomly sample 10% of lists. The detailed process is [here](https://github.com/LibRerank-Community/LibRerank/blob/master/Data/preprocess_prm.py).
 
