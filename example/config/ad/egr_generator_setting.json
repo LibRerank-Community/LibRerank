@@ -1,0 +1,16 @@
+{
+  "model_type": "EGR_generator",
+  "data_set_name": "ad",
+  "initial_ranker": "mart",
+  "lr": 1e-4,
+  "l2_reg": 1e-4,
+  "batch_size": 16,
+  "max_time_len": 10,
+  "metric_scope": [1, 3, 5, 10],
+  "eb_dim": 16,
+  "hidden_size": 64,
+  "epoch_num": 100,
+  "save_dir": "./model/",
+  "data_dir": "./Data/ad/",
+  "evaluator_path": "./model/save_model_ad/10/202202101214_mart_EGR_evaluator_16_0.0005_0.0002_64_16_0.8"
+}

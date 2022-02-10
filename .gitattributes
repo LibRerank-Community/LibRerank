@@ -1,0 +1,13 @@
+res_prm filter=lfs diff=lfs merge=lfs -text
+run_reranker.py filter=lfs diff=lfs merge=lfs -text
+setup.py filter=lfs diff=lfs merge=lfs -text
+Data filter=lfs diff=lfs merge=lfs -text
+example filter=lfs diff=lfs merge=lfs -text
+librerank filter=lfs diff=lfs merge=lfs -text
+LICENSE filter=lfs diff=lfs merge=lfs -text
+Makefile filter=lfs diff=lfs merge=lfs -text
+covert2table.py filter=lfs diff=lfs merge=lfs -text
+README.md filter=lfs diff=lfs merge=lfs -text
+requirements.txt filter=lfs diff=lfs merge=lfs -text
+res_ad filter=lfs diff=lfs merge=lfs -text
+run_init_ranker.py filter=lfs diff=lfs merge=lfs -text

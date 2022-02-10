@@ -1,0 +1,1 @@
+python run_reranker.py --setting_path=./example/config/ad/egr_generator_setting.json

@@ -1,0 +1,11 @@
+{
+  "model_type": "DNN",
+  "data_set_name": "ad",
+  "lr": 1e-4,
+  "l2_reg": 1e-5,
+  "batch_size": 500,
+  "epoch_num": 50,
+  "eb_dim": 16,
+  "save_dir": "./model/",
+  "data_dir": "./Data/ad/"
+}

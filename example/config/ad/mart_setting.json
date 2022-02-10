@@ -1,0 +1,9 @@
+{
+  "model_type": "mart",
+  "data_set_name": "ad",
+  "tree_type": "lgb",
+  "tree_num": 5,
+  "lr": 1e-2,
+  "save_dir": "./model",
+  "data_dir": "./Data/ad/"
+}
