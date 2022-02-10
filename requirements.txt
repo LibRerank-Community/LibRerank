@@ -1,3 +1,4 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:28db87a6c247ac0081672fef2522f9f4340f077a50381955a7183227dac18e1f
-size 86
+tensorflow-gpu >= 1.9.0,<2
+numpy >= 1.16.4
+scikit-learn >= 0.21.2
+lightgbm >= 2.3.2
