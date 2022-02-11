@@ -26,7 +26,7 @@ Run re-ranker
 ```
 bash example/run_reranker.sh
 ```
-
+We can choose to enter a config file like `example/run_reranker.sh` via the parameter `setting_path`. The config files for the different models can be found in `example/config`. We can also set various parameters directly from the command line. A list of supported parameters can be found in `run_init_ranker.py` and `run_reranker.py`.
 
 ## Structure
 
@@ -61,12 +61,11 @@ We process two datasets, [Ad](https://tianchi.aliyun.com/dataset/dataDetail?data
 | PRM Public | 2,851,766 | 1,295,496 | 3              | 24              |
 
 Depending on the length of the initial ranking, the maximum length of initial lists (re-ranking size n) is set to 10 and 30 for Ad and PRM Public, respectively.
-
 #### Ad
 
-The original [Ad dataset](https://tianchi.aliyun.com/dataset/dataDetail?dataId=56) records 1 million users and 26 million ad display/click logs, with 8 user profiles (e.g., id, age, and occupation), 6 item features (e.g., id, campaign, and brand). Following previous work, We transform records of each user into ranking lists according to the timestamp of the user browsing the advertisement. Items that have been interacted with within five minutes are sliced into a list. The detailed process is [here](https://github.com/LibRerank-Community/LibRerank/blob/master/Data/preprocess_ad.py).
+The original [Ad dataset](https://tianchi.aliyun.com/dataset/dataDetail?dataId=56) records 1 million users and 26 million ad display/click logs, with 8 user profiles (e.g., id, age, and occupation), 6 item features (e.g., id, campaign, and brand). Following previous work, We transform records of each user into ranking lists according to the timestamp of the user browsing the advertisement. Items that have been interacted with within five minutes are sliced into a list and the processed data is avaliable [here](https://github.com/LibRerank-Community/LibRerank/tree/master/Data/ad). The detailed process is [here](https://github.com/LibRerank-Community/LibRerank/blob/master/Data/preprocess_ad.py).
 
 #### PRM public
 
-The original [PRM public dataset](https://github.com/rank2rec/rerank) contains re-ranking lists from a real-world e-commerce RS. Each record is a recommendation list consisting of 3 user profile features, 5 categorical, and 19 dense item features.  Due to the memory limitation, we randomly sample 10% of lists. The detailed process is [here](https://github.com/LibRerank-Community/LibRerank/blob/master/Data/preprocess_prm.py).
+The original [PRM public dataset](https://github.com/rank2rec/rerank) contains re-ranking lists from a real-world e-commerce RS. Each record is a recommendation list consisting of 3 user profile features, 5 categorical, and 19 dense item features.  Due to the memory limitation, we randomly sample 10% of lists and remained data is avaliable [here](). The detailed process is [here](https://github.com/LibRerank-Community/LibRerank/blob/master/Data/preprocess_prm.py).
 
