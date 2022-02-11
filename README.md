@@ -53,7 +53,7 @@ EGRerank: the implementation of the Evaluator-Generator Reranking in <a href="ht
 
 ### Data
 
-We process two datasets, [Ad](https://tianchi.aliyun.com/dataset/dataDetail?dataId=56) and [PRM Public](https://github.com/rank2rec/rerank), containing user and item features with recommendation lists for the experimentation with personalized re-ranking. The details of [processed datasets](https://github.com/LibRerank-Community/LibRerank/tree/master/Data) are summarized in the following table
+We process two datasets, [Ad](https://tianchi.aliyun.com/dataset/dataDetail?dataId=56) and [PRM Public](https://github.com/rank2rec/rerank), containing user and item features with recommendation lists for the experimentation with personalized re-ranking. The details of processed datasets are summarized in the following table
 
 | Dataset    | #item     | #list     | # user feature | #  item feature |
 | ---------- | --------- | --------- | -------------- | --------------- |
@@ -67,5 +67,5 @@ The original [Ad dataset](https://tianchi.aliyun.com/dataset/dataDetail?dataId=5
 
 #### PRM public
 
-The original [PRM public dataset](https://github.com/rank2rec/rerank) contains re-ranking lists from a real-world e-commerce RS. Each record is a recommendation list consisting of 3 user profile features, 5 categorical, and 19 dense item features.  Due to the memory limitation, we randomly sample 10% of lists and remained data is avaliable [here](). The detailed process is [here](https://github.com/LibRerank-Community/LibRerank/blob/master/Data/preprocess_prm.py).
+The original [PRM public dataset](https://github.com/rank2rec/rerank) contains re-ranking lists from a real-world e-commerce RS. Each record is a recommendation list consisting of 3 user profile features, 5 categorical, and 19 dense item features.  Due to the memory limitation, we randomly sample 10% of lists and remained data is avaliable [here](https://drive.google.com/drive/folders/1c8HPVFAsLP6BwDzDRjd2Xs-BVP117uWQ?usp=sharing). The detailed process is [here](https://github.com/LibRerank-Community/LibRerank/blob/master/Data/preprocess_prm.py).
 
