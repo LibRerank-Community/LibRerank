@@ -30,12 +30,11 @@ We can choose to enter a config file like `example/run_reranker.sh` via the para
 
 ## Structure
 
-### librerank
-#### Initial rankers
+### Initial rankers
 DNN: a naive algorithm that directly train a multi-layer perceptron network with input labels (e.g., clicks).
 
 LambdaMART: the implementation of the LambdaMART model in <a href="https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/MSR-TR-2010-82.pdf">*From RankNet to LambdaRank to LambdaMART: An Overview*</a>
-#### Re-ranking algorithms
+### Re-ranking algorithms
 DLCM: the implementation of the Deep Listwise Context Model in <a href="https://arxiv.org/pdf/1804.05936.pdf">*Learning a Deep Listwise Context Model for Ranking Refinement*</a>.
 
 PRM: the implementation of the Personalized Re-ranking Model in <a href="https://arxiv.org/pdf/1904.06813.pdf">*Personalized Re-ranking for Recommendation*</a>
