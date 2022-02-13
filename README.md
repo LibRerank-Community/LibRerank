@@ -26,7 +26,7 @@ Run re-ranker
 ```
 bash example/run_reranker.sh
 ```
-We can choose to enter a config file like `example/run_reranker.sh` via the parameter `setting_path`. The config files for the different models can be found in `example/config`. We can also set various parameters directly from the command line. A list of supported parameters can be found in `run_init_ranker.py` and `run_reranker.py`.
+Model parameters can be set by using a config file, and specify its file path at `--setting_path`, e.g., `bash example/run_ranker.sh --setting_path config`. The config files for the different models can be found in `example/config`. Or various parameters can be directly set from the command line. A list of supported parameters can be found in `run_init_ranker.py` and `run_reranker.py`.
 
 ## Structure
 
