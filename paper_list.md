@@ -1,4 +1,4 @@
-# Neural Re-ranking in Multi-stage Recommender Systems: An actively updating paper list
+# Paper List
 
 
 ## Accuracy-oriented Re-ranking
