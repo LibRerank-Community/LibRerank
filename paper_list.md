@@ -1,11 +1,8 @@
-# Neural Re-ranking in Multi-stage Recommender Systems: An actively updating paper list
+# Neural Re-ranking in Multi-stage Recommender Systems
+## An actively updating paper list
 
 
-## [Accuracy-oriented Re-ranking]()
-
-A curated set of papers along with code.
-
-### [Point wise/ pair wise / list-wise LTR]()
+### Accuracy-oriented Re-ranking
 
 * __List wise Approach to Learning to Rank Theory and Algorithm__，(ICML 2008), _Fen Xia, Tie-Yan Liu, Jue Wang, Wensheng Zhang, Hang Li_. [[pdf]](https://dl.acm.org/doi/10.1145/1390156.1390306) [[code]]()
 
@@ -13,7 +10,7 @@ A curated set of papers along with code.
 
 * __Learning to Rank with Nonsmooth Cost Functions__, (NIPS 2006), _Christopher J, Burges, Robert Ragno, Quoc V. Le_. [[pdf]](http://papers.nips.cc/paper/2971-learning-to-rank-with-nonsmooth-cost-functions) [[code]]() 
 
-## [Diversity-aware Re-ranking]()
+### Diversity-aware Re-ranking
 
 
-## [Fairness-aware Re-ranking]()
+### Fairness-aware Re-ranking
