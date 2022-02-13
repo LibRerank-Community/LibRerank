@@ -66,5 +66,5 @@ The original [Ad dataset](https://tianchi.aliyun.com/dataset/dataDetail?dataId=5
 
 #### PRM public
 
-The original [PRM public dataset](https://github.com/rank2rec/rerank) contains re-ranking lists from a real-world e-commerce RS. Each record is a recommendation list consisting of 3 user profile features, 5 categorical, and 19 dense item features.  Due to the memory limitation, we randomly sample 10% of lists and remained data is avaliable [here](https://drive.google.com/drive/folders/1c8HPVFAsLP6BwDzDRjd2Xs-BVP117uWQ?usp=sharing). The detailed process is [here](https://github.com/LibRerank-Community/LibRerank/blob/master/Data/preprocess_prm.py).
+The original [PRM public dataset](https://github.com/rank2rec/rerank) contains re-ranking lists from a real-world e-commerce RS. Each record is a recommendation list consisting of 3 user profile features, 5 categorical, and 19 dense item features.  Due to the memory limitation, we downsample the dataset and the remained data is avaliable [here](https://drive.google.com/drive/folders/1c8HPVFAsLP6BwDzDRjd2Xs-BVP117uWQ?usp=sharing). The detailed process is [here](https://github.com/LibRerank-Community/LibRerank/blob/master/Data/preprocess_prm.py).
 
