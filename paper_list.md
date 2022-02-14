@@ -1,5 +1,6 @@
 # Paper List
 
+<br>
 
 ## Accuracy-oriented Re-ranking
 ### Learning by observed signals
@@ -76,5 +77,13 @@
 
 ## Fairness-aware Re-ranking
 
+
+* __Using image fairness representations in diversity-based re-ranking for recommendations__, (UMAP 2018), _Karako, Chen, and Putra Manggala_. [[pdf]](https://dl.acm.org/doi/pdf/10.1145/3213586.3226206?casa_token=zwlfoyDpOs0AAAAA:umTNePRI3Pmb5gEgulHg5OSa3ewnIU9PCduxiGSqS2rMxOijBXRKnR7lm0rXW-8crr70iMJYFWqkvw) 
+
+* __Globally Optimized Mutual Influence Aware Ranking in E-Commerce Search__, (IJCAI 2018), _Zhuang, Tao, Wenwu Ou, and Zhirong Wan_. [[pdf]](https://www.ijcai.org/proceedings/2018/0518.pdf) 
+
+* __Globally Optimized Mutual Influence Aware Ranking in E-Commerce Search__, (IJCAI 2018), _Zhuang, Tao, Wenwu Ou, and Zhirong Wan_. [[pdf]](https://www.ijcai.org/proceedings/2018/0518.pdf) 
+
+* __Globally Optimized Mutual Influence Aware Ranking in E-Commerce Search__, (IJCAI 2018), _Zhuang, Tao, Wenwu Ou, and Zhirong Wan_. [[pdf]](https://www.ijcai.org/proceedings/2018/0518.pdf) 
 
 * __Globally Optimized Mutual Influence Aware Ranking in E-Commerce Search__, (IJCAI 2018), _Zhuang, Tao, Wenwu Ou, and Zhirong Wan_. [[pdf]](https://www.ijcai.org/proceedings/2018/0518.pdf) 
