@@ -1,6 +1,6 @@
 {
   "model_type": "DNN",
-  "data_set_name": "aprm",
+  "data_set_name": "prm",
   "lr": 1e-4,
   "l2_reg": 1e-5,
   "batch_size": 500,

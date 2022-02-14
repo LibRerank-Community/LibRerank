@@ -1,7 +1,7 @@
 {
   "model_type": "EGR_evaluator",
   "data_set_name": "ad",
-  "initial_ranker": "mart",
+  "initial_ranker": "lambdaMART",
   "lr": 5e-4,
   "l2_reg": 2e-4,
   "batch_size": 16,

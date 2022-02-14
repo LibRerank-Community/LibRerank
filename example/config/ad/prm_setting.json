@@ -1,7 +1,7 @@
 {
   "model_type": "PRM",
   "data_set_name": "ad",
-  "initial_ranker": "mart",
+  "initial_ranker": "lambdaMART",
   "lr": 1e-4,
   "l2_reg": 1e-4,
   "batch_size": 32,
