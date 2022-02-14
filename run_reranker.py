@@ -249,7 +249,7 @@ def reranker_parse_args():
     parser.add_argument('--model_type', default='PRM', choices=['PRM', 'DLCM', 'SetRank', 'GSF', 'miDNN', 'Seq2Slate', 'EGR_evaluator', 'EGR_generator'],
                         type=str, help='algorithm name, including PRM, DLCM, SetRank, GSF, miDNN, Seq2Slate, EGR_evaluator, EGR_generator')
     parser.add_argument('--data_set_name', default='ad', type=str, help='name of dataset, including ad and prm')
-    parser.add_argument('--initial_ranker', default='mart', choices=['DNN', 'svm', 'mart'], type=str, help='name of dataset, including DNN, mart, svm')
+    parser.add_argument('--initial_ranker', default='lambdaMART', choices=['DNN', 'lambdaMART'], type=str, help='name of dataset, including DNN, lambdaMART')
     parser.add_argument('--epoch_num', default=30, type=int, help='epochs of each iteration.')
     parser.add_argument('--batch_size', default=16, type=int, help='batch size')
     parser.add_argument('--rep_num', default=5, type=int, help='samples repeat number')
@@ -262,8 +262,8 @@ def reranker_parse_args():
     parser.add_argument('--metric_scope', default=[1, 3, 5, 10], type=list, help='the scope of metrics')
     parser.add_argument('--max_norm', default=0, type=float, help='max norm of gradient')
     parser.add_argument('--c_entropy', default=0.001, type=float, help='entropy coefficient in loss')
-    parser.add_argument('--decay_steps', default=3000, type=int, help='learning rate decay steps')
-    parser.add_argument('--decay_rate', default=1.0, type=float, help='learning rate decay rate')
+    # parser.add_argument('--decay_steps', default=3000, type=int, help='learning rate decay steps')
+    # parser.add_argument('--decay_rate', default=1.0, type=float, help='learning rate decay rate')
     parser.add_argument('--timestamp', type=str, default=datetime.datetime.now().strftime("%Y%m%d%H%M"))
     parser.add_argument('--evaluator_path', type=str, default='', help='evaluator ckpt dir')
     parser.add_argument('--reload_path', type=str, default='', help='model ckpt dir')
@@ -278,7 +278,7 @@ if __name__ == '__main__':
     parse = reranker_parse_args()
     if parse.setting_path:
         parse = load_parse_from_json(parse, parse.setting_path)
-    # data_dir = parse.data_dir
+    
     data_set_name = parse.data_set_name
     processed_dir = parse.data_dir
     stat_dir = os.path.join(processed_dir, 'data.stat')
@@ -288,49 +288,6 @@ if __name__ == '__main__':
         max_time_len = 30
     print(parse)
 
-
-    # data_dir = 'data/'
-    # date = datetime.date.today().strftime('%Y_%m_%d')
-    # # data_set_name = 'prm'
-    # data_set_name = 'ad'
-    # processed_dir = os.path.join(data_dir, data_set_name + '/processed/')
-    # stat_dir = os.path.join(processed_dir, 'data.stat')
-    # # initial_rankers = 'DNN'
-    # # initial_rankers = 'svm'
-    # initial_rankers = 'mart'
-    # # model_type = 'PRM'
-    # # model_type = 'DLCM'
-    # # model_type = 'SetRank'
-    # # model_type = 'GSF'
-    # # model_type = 'miDNN'
-    # # model_type = 'evaluator'
-    # model_type = 'EGR_generator'
-    # # model_type = 'Seq2Slate'
-    # # model_type = 'DeepFM'
-    # # reload_path = './save_model_ad/10/2022_02_02_mart_evaluator_32_0.0005_0.0001_64_16_best'
-    # reload_path = './save_model_ad/10/2022_02_05_mart_evaluator_16_0.0005_0.0002_64_16_good'  # ad
-    # # reload_path = './save_model_prm/30/2022_02_05_mart_evaluator_16_0.0002_0.0001_64_16_good'  # prm
-    # if data_set_name == 'prm':
-    #     max_time_len = 30
-    # else:
-    #     max_time_len = 10
-    # # max_behavior_len = 30
-    # l2_reg = 7e-5
-    # lr = 1e-4  # 1e-3 does not work
-    # embedding_size = 16   # 16
-    # batch_size = 16   # 32
-    # hidden_size = 64   # 64
-    # epoch_num = 30
-    # rep_num = 5
-    # # c_rewards_d = 0.005
-    # # update_steps = 1
-    # # update_rate_d = 1
-    # c_entropy = 0.001
-    # if data_set_name == 'prm':
-    #     metric_scope = [5, 10, 15, 20]
-    # else:
-    #     metric_scope = [1, 3, 5, 10]
-    # max_norm = None
 
     with open(stat_dir, 'r') as f:
         stat = json.load(f)
