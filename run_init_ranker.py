@@ -245,20 +245,20 @@ def ranker_parse_args():
     parser = argparse.ArgumentParser()
     parser.add_argument('--data_dir', type=str, default='./data/toy/', help='the path of data')
     parser.add_argument('--save_dir', type=str, default='./', help='dir that saves logs and model')
-    parser.add_argument('--model_type', default='mart', choices=['DNN', 'mart'], type=str,
-                        help='algorithm name, including DNN, mart, svm')
+    parser.add_argument('--model_type', default='mart', choices=['DNN', 'lambdaMART'], type=str,
+                        help='algorithm name, including DNN, lambdaMART')
     parser.add_argument('--data_set_name', default='ad', type=str, help='name of dataset')
     parser.add_argument('--epoch_num', default=50, type=int, help='epochs of each iteration.')
     parser.add_argument('--batch_size', default=500, type=int, help='batch size')
     parser.add_argument('--lr', default=1e-4, type=float, help='learning rate')
     parser.add_argument('--l2_reg', default=1e-5, type=float, help='l2 loss scale')
     parser.add_argument('--eb_dim', default=16, type=int, help='size of embedding')
-    parser.add_argument('--hidden_size', default=64, type=int, help='hidden size')
+    # parser.add_argument('--hidden_size', default=64, type=int, help='hidden size')
     parser.add_argument('--tree_type', default='lgb', type=str, help='tree type for lambdamart')
     parser.add_argument('--tree_num', default=10, type=int, help='num of tree for lambdamart')
-    parser.add_argument('--c', default=2, type=float, help='c for SVM')
-    parser.add_argument('--decay_steps', default=3000, type=int, help='learning rate decay steps')
-    parser.add_argument('--decay_rate', default=1.0, type=float, help='learning rate decay rate')
+    # parser.add_argument('--c', default=2, type=float, help='c for SVM')
+    # parser.add_argument('--decay_steps', default=3000, type=int, help='learning rate decay steps')
+    # parser.add_argument('--decay_rate', default=1.0, type=float, help='learning rate decay rate')
     parser.add_argument('--timestamp', type=str, default=datetime.datetime.now().strftime("%Y%m%d%H%M"))
     parser.add_argument('--reload_path', type=str, default='', help='model ckpt dir')
     parser.add_argument('--setting_path', type=str, default='', help='setting dir')
@@ -278,21 +278,6 @@ if __name__ == '__main__':
     processed_dir = parse.data_dir
     stat_dir = os.path.join(processed_dir, 'data.stat')
     pt_dir = os.path.join(processed_dir, 'pretrain')
-
-    # model_type = 'DIN'
-    # model_type = 'svm'
-    # model_type = 'DNN'
-    # model_type = 'mart'
-    #
-    # reg_lambda = 1e-5
-    # lr = 1e-4 #DIN
-    # # lr = 5e-5
-    # embedding_size = 16
-    # batch_size = 500
-    # tree_num = 1
-    # tree_type = 'lgb'
-    # c = 0.2
-    # epoch_num = 50
 
     with open(stat_dir, 'r') as f:
         stat = json.load(f)
@@ -316,7 +301,7 @@ if __name__ == '__main__':
         train(train_file, val_file, test_file, parse.eb_dim, num_ft,
               itm_spar_fnum, itm_dens_fnum, profile_fnum, num_item, parse.lr,
               parse.l2_reg, parse.batch_size, processed_dir, pt_dir)
-    elif parse.model_type == 'mart':
+    elif parse.model_type == 'lambdaMART':
         train_mart(train_file, val_file, test_file, pt_dir,
               processed_dir, parse.tree_num, parse.lr, parse.tree_type)
     # elif parse.model_type == 'svm':
