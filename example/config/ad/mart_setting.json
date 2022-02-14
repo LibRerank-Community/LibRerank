@@ -1,5 +1,5 @@
 {
-  "model_type": "mart",
+  "model_type": "lambdaMART",
   "data_set_name": "ad",
   "tree_type": "lgb",
   "tree_num": 5,
