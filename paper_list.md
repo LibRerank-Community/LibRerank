@@ -92,6 +92,6 @@
 
 * __Computationally Efficient Optimization of Plackett-Luce Ranking Models for Relevance and Fairness__, (SIGIR 2021), _Oosterhuis, Harrie_. [[pdf]](https://dl.acm.org/doi/pdf/10.1145/3404835.3462830) 
 
-* __Globally Optimized Mutual Influence Aware Ranking in E-Commerce Search__, (IJCAI 2018), _Zhuang, Tao, Wenwu Ou, and Zhirong Wan_. [[pdf]](https://www.ijcai.org/proceedings/2018/0518.pdf) 
+* __Policy-gradient training of fair and unbiased ranking functions__, (SIGIR 2021), _Yadav, Himank, Zhengxiao Du, and Thorsten Joachims._. [[pdf]](https://dl.acm.org/doi/pdf/10.1145/3404835.3462953?casa_token=kYWENGXPn2wAAAAA:rU1HQPzZSr7K7u_vkmS1Z7hJLAJA3tNH6qJDzeoomBivUQeHHx-dsjrT943ruovRvCbu29Q4DYR6uw) 
 
-* __Globally Optimized Mutual Influence Aware Ranking in E-Commerce Search__, (IJCAI 2018), _Zhuang, Tao, Wenwu Ou, and Zhirong Wan_. [[pdf]](https://www.ijcai.org/proceedings/2018/0518.pdf) 
+* __Fairness among New Items in Cold Start Recommender Systems__, (SIGIR 2021), _Zhu, Ziwei, Jingu Kim, Trung Nguyen, Aish Fenton, and James Caverlee_. [[pdf]](https://dl.acm.org/doi/pdf/10.1145/3404835.3462948?casa_token=j5_fJQeOkLgAAAAA:oTx_4VpeJ0ICNiy5UDBc2QD0YrJjzal21-aM6RmzoiuBSaA51IQ3oWeyRJnMfAs3eqvcOOYF0s3YQA) 
