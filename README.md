@@ -36,8 +36,47 @@ bash example/run_reranker.sh
 ```
 Model parameters can be set by using a config file, and specify its file path at `--setting_path`, e.g., `python run_ranker.py --setting_path config`. The config files for the different models can be found in `example/config`. Moreover, model parameters can also be directly set from the command line. The supported parameters are listed as follows.
 ##### Parameters of `run_ranker.py`
+| argument          | usage                                                        |
+| ----------------- | ------------------------------------------------------------ |
+| `--data_dir`      | The path to the directory that saves data                    |
+| `--save_dir`      | The path to the directory that saves models and logs         |
+| `--model_type`    | The algorithm of reranker, including `DNN` and `LambdaMART`<br />**PLEASE ATTENTION**:  <br />Before training `lambdaMART`, you need to train  `DNN` to get the pre-trained embedding |
+| `--setting_path`  | The path to the `json` config file, like files in `example\config` |
+| `--data_set_name` | The name of the dataset, such as `ad` and `prm`              |
+| `--epoch_num`     | The number of  epoch for `DNN` model                         |
+| `--batch_size`    | Batch size for `DNN` model                                   |
+| `--lr`            | Learning rate for `DNN` and `lambdaMART`                     |
+| `--l2_reg`        | The coefficient of l2 regularization for DNN model           |
+| `--eb_dim`        | The size of embedding for DNN model                          |
+| `--tree_num`      | The number of trees for `lambdaMART` model                   |
+| `--tree_type`     | The type of tree for `lambdaMART` model, including `lgb` and `sklearn` |
+
+
 
 ##### Parameters of `run_reranker.py`
+
+| argument           | usage                                                        |
+| ------------------ | ------------------------------------------------------------ |
+| `--data_dir`       | The path to the directory that saves data                    |
+| `--save_dir`       | The path to the directory that saves models and logs         |
+| `--setting_path`   | The path to the `json` config file, like files in `example\config` |
+| `--data_set_name`  | The name of the dataset, such as `ad` and `prm`              |
+| `--initial_ranker` | The name of initial ranker, including `DNN`, `lambdaMART`.   |
+| `--model_type`     | The name of the algorithm, including `PRM`, `DLCM`, `GSF`, `SetRank`, `miDNN`,<br /> `Seq2Slate`, `EGR_evaluator`, `EGR_generator`. |
+| `--epoch_num`      | The number of  epoch                                         |
+| `--batch_size`     | Batch size                                                   |
+| `--lr`             | Learning rate                                                |
+| `--l2_reg`         | The coefficient of l2 regularization                         |
+| `--eb_dim`         | The size of embedding                                        |
+| `--hidden_size`    | The size of hidden unit, usually the hideen size of LSTM/GRU |
+| `--keep_prob`      | Keep prob in dropout                                         |
+| `--metric_scope`   | The scope of metrics, for example when `--metric_scope=[1, 3, 5]`,  <br />MAP@1, MAP@3, and MAP@5 will be computed |
+| `--max_norm`       | The max norm of gradient clip                                |
+| `--rep_num`        | The number of repetitions during the training of the generator in EGRerank |
+| `--group_size`     | The group size for `GSF` model                               |
+| `--c_enrropy`      | The entropy coefficient in the loss for the generator in EGRerank |
+| `--evaluator_path` | The path to the evaluator model ckpt when training the generator in EGRerank<br /> **PLEASE ATTENTION**: It's necessary to train the evaluator before generator |
+
 
 ## Structure
 
