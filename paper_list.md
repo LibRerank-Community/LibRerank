@@ -2,7 +2,7 @@
 
 
 ## Overview
-* [Accuracy-oriented Re-ranking](##Accuracy-oriented Re-ranking)
+* [Accuracy-oriented Re-ranking](##accuracy-oriented re-ranking)
 
 ## Accuracy-oriented Re-ranking
 ### Learning by observed signals
