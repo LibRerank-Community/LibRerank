@@ -33,6 +33,21 @@
 
 * __Generator and Critic: A Deep Reinforcement Learning Approach for Slate Re-ranking in E-commerce__, (ArXiv 2020), _Wei, Jianxiong, Anxiang Zeng, Yueqiu Wu, Peng Guo, Qingsong Hua, and Qingpeng Cai_. [[pdf]](https://arxiv.org/pdf/2005.12206.pdf) 
 
+* __Revisit Recommender System in the Permutation Prospective__, (ArXiv 2021), _Feng, Yufei, Yu Gong, Fei Sun, Junfeng Ge, and Wenwu Ou_. [[pdf]](https://arxiv.org/pdf/2102.12057.pdf) 
+
+* __GRN: Generative Rerank Network for Context-wise Recommendation__, (ArXiv 2021), _Feng, Yufei, Binbin Hu, Yu Gong, Fei Sun, Qingwen Liu, and Wenwu Ou_. [[pdf]](https://arxiv.org/pdf/2104.00860.pdf) 
+
+
+* __Context-aware Reranking with Utility Maximization for Recommendation__, (ArXiv 2021), _Xi, Yunjia, Weiwen Liu, Xinyi Dai, Ruiming Tang, Weinan Zhang, Qing Liu, Xiuqiang He, and Yong Yu_. [[pdf]](https://arxiv.org/pdf/2110.09059.pdf) 
+
+* __AliExpress Learning-To-Rank: Maximizing Online Model Performance without Going Online__, (TDKE 2021), _Huzhang, Guangda, Zhenjia Pang, Yongqing Gao, Yawen Liu, Weijie Shen, Wen-Ji Zhou, Qing Da et al_. [[pdf]](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9495161&casa_token=phJ-uT1T8TcAAAAA:8bSWyJtWjs9f55MIsUvmpM_cdTDR7aRg-gnG1TGf-II428XrkcN9NN6CszedtCtpkwkO_wgQyg&tag=1) 
+
+* __Learning groupwise multivariate scoring functions using deep neural networks__, (ICTIR 2019), _Ai, Qingyao, Xuanhui Wang, Sebastian Bruch, Nadav Golbandi, Michael Bendersky, and Marc Najork_. [[pdf]](https://dl.acm.org/doi/pdf/10.1145/3341981.3344218) 
+
+* __Setrank: Learning a permutation-invariant ranking model for information retrieval__, (SIGIR 2020), _Pang, Liang, Jun Xu, Qingyao Ai, Yanyan Lan, Xueqi Cheng, and Jirong Wen_. [[pdf]](https://dl.acm.org/doi/pdf/10.1145/3397271.3401104?casa_token=MZQmPBqZ-_0AAAAA:Ynip1qaF0b4fcSinCbfcJllBmpmIwjlspqzULUIIS2wXWFYl6l1w2fA31SXAol1-jZr6fPpO8TN7vw) 
+
+
+
 
 
 
