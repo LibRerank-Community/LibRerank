@@ -88,9 +88,9 @@
 
 * __Using image fairness representations in diversity-based re-ranking for recommendations__, (UMAP 2018), _Karako, Chen, and Putra Manggala_. [[pdf]](https://dl.acm.org/doi/pdf/10.1145/3213586.3226206?casa_token=zwlfoyDpOs0AAAAA:umTNePRI3Pmb5gEgulHg5OSa3ewnIU9PCduxiGSqS2rMxOijBXRKnR7lm0rXW-8crr70iMJYFWqkvw) 
 
-* __Globally Optimized Mutual Influence Aware Ranking in E-Commerce Search__, (IJCAI 2018), _Zhuang, Tao, Wenwu Ou, and Zhirong Wan_. [[pdf]](https://www.ijcai.org/proceedings/2018/0518.pdf) 
+* __Policy learning for fairness in ranking__, (NeuIPS 2019), _Singh, Ashudeep, and Thorsten Joachims_. [[pdf]](https://proceedings.neurips.cc/paper/2019/file/9e82757e9a1c12cb710ad680db11f6f1-Paper.pdf) 
 
-* __Globally Optimized Mutual Influence Aware Ranking in E-Commerce Search__, (IJCAI 2018), _Zhuang, Tao, Wenwu Ou, and Zhirong Wan_. [[pdf]](https://www.ijcai.org/proceedings/2018/0518.pdf) 
+* __Computationally Efficient Optimization of Plackett-Luce Ranking Models for Relevance and Fairness__, (SIGIR 2021), _Oosterhuis, Harrie_. [[pdf]](https://dl.acm.org/doi/pdf/10.1145/3404835.3462830) 
 
 * __Globally Optimized Mutual Influence Aware Ranking in E-Commerce Search__, (IJCAI 2018), _Zhuang, Tao, Wenwu Ou, and Zhirong Wan_. [[pdf]](https://www.ijcai.org/proceedings/2018/0518.pdf) 
 
