@@ -1,5 +1,5 @@
 # LibRerank
-LibRerank is a toolkit for re-ranking algorithms. There are a number of re-ranking algorithms, such as PRM, DLCM, GSF, miDNN, SetRank, EGRerank, Seq2Slate. It also supports LambdaMART and DNN as initial ranker. In addition, an actively maintaing **paper list** can be found [here](https://github.com/LibRerank-Community/LibRerank/blob/master/paper_list.md).
+LibRerank is a toolkit for re-ranking algorithms. There are a number of re-ranking algorithms, such as PRM, DLCM, GSF, miDNN, SetRank, EGRerank, Seq2Slate. It also supports LambdaMART and DNN as initial ranker. In addition, an actively maintaing **paper list** on _neural re-ranking for recommendation_ can be found [here](https://github.com/LibRerank-Community/LibRerank/blob/master/paper_list.md).
 
 ## Get Started
 
