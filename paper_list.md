@@ -3,6 +3,12 @@
 
 ## Overview
 * [Accuracy-oriented Re-ranking](#accuracy-oriented-re-ranking)
+    * [Learning by observed signals](#learning-by-observed-signals)
+    * [Learning by counterfactual signals](#learning-by-counterfactual-signals)
+* [Diversity-aware Re-ranking](#diversity-aware-re-ranking)
+    * [Implicit Approaches](#implicit-approaches)
+    * [Explicit Approaches](#explicit-approaches)
+* [Fairness-aware Re-ranking](#fairness-aware-re-ranking)
 
 ## Accuracy-oriented Re-ranking
 ### Learning by observed signals
