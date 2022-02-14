@@ -27,9 +27,14 @@
 
 ### Learning by counterfactual signals
 
+
 * __Sequential evaluation and generation framework for combinatorial recommender system__, (ArXiv 2019), _Wang, Fan, Xiaomin Fang, Lihang Liu, Yaxue Chen, Jiucheng Tao, Zhiming Peng, Cihang Jin, and Hao Tian_. [[pdf]](https://arxiv.org/pdf/1902.00245.pdf?ref=https://githubhelp.com) 
 
-* __Co-Displayed Items Aware List Recommendation__, (IEEE Access 2018), _Song, Junshuai, Zhao Li, Chang Zhou, Jinze Bai, Zhenpeng Li, Jian Li, and Jun Gao_. [[pdf]](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9052461) 
+* __Learning groupwise multivariate scoring functions using deep neural networks__, (ICTIR 2019), _Ai, Qingyao, Xuanhui Wang, Sebastian Bruch, Nadav Golbandi, Michael Bendersky, and Marc Najork_. [[pdf]](https://dl.acm.org/doi/pdf/10.1145/3341981.3344218) 
+
+* __Co-Displayed Items Aware List Recommendation__, (IEEE Access 2020), _Song, Junshuai, Zhao Li, Chang Zhou, Jinze Bai, Zhenpeng Li, Jian Li, and Jun Gao_. [[pdf]](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9052461) 
+
+* __Setrank: Learning a permutation-invariant ranking model for information retrieval__, (SIGIR 2020), _Pang, Liang, Jun Xu, Qingyao Ai, Yanyan Lan, Xueqi Cheng, and Jirong Wen_. [[pdf]](https://dl.acm.org/doi/pdf/10.1145/3397271.3401104?casa_token=MZQmPBqZ-_0AAAAA:Ynip1qaF0b4fcSinCbfcJllBmpmIwjlspqzULUIIS2wXWFYl6l1w2fA31SXAol1-jZr6fPpO8TN7vw) 
 
 * __Generator and Critic: A Deep Reinforcement Learning Approach for Slate Re-ranking in E-commerce__, (ArXiv 2020), _Wei, Jianxiong, Anxiang Zeng, Yueqiu Wu, Peng Guo, Qingsong Hua, and Qingpeng Cai_. [[pdf]](https://arxiv.org/pdf/2005.12206.pdf) 
 
@@ -42,16 +47,34 @@
 
 * __AliExpress Learning-To-Rank: Maximizing Online Model Performance without Going Online__, (TDKE 2021), _Huzhang, Guangda, Zhenjia Pang, Yongqing Gao, Yawen Liu, Weijie Shen, Wen-Ji Zhou, Qing Da et al_. [[pdf]](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9495161&casa_token=phJ-uT1T8TcAAAAA:8bSWyJtWjs9f55MIsUvmpM_cdTDR7aRg-gnG1TGf-II428XrkcN9NN6CszedtCtpkwkO_wgQyg&tag=1) 
 
-* __Learning groupwise multivariate scoring functions using deep neural networks__, (ICTIR 2019), _Ai, Qingyao, Xuanhui Wang, Sebastian Bruch, Nadav Golbandi, Michael Bendersky, and Marc Najork_. [[pdf]](https://dl.acm.org/doi/pdf/10.1145/3341981.3344218) 
-
-* __Setrank: Learning a permutation-invariant ranking model for information retrieval__, (SIGIR 2020), _Pang, Liang, Jun Xu, Qingyao Ai, Yanyan Lan, Xueqi Cheng, and Jirong Wen_. [[pdf]](https://dl.acm.org/doi/pdf/10.1145/3397271.3401104?casa_token=MZQmPBqZ-_0AAAAA:Ynip1qaF0b4fcSinCbfcJllBmpmIwjlspqzULUIIS2wXWFYl6l1w2fA31SXAol1-jZr6fPpO8TN7vw) 
-
-
 
 
 
 
 ## Diversity-aware Re-ranking
 
+### Implicit Approaches
+
+* __Modeling document novelty with neural tensor network for search result diversification__, (SIGIR 2016), _Xia, Long, Jun Xu, Yanyan Lan, Jiafeng Guo, and Xueqi Cheng_. [[pdf]](https://dl.acm.org/doi/pdf/10.1145/2911451.2911498?casa_token=1ER68Z_VUt8AAAAA:CoHIiuLTrXlDxHXB0Cwdlxz6VtJEpH4Iv7s2ASQ6g0n1WYsnnFz48m09wluLbBoAFeLw6E4zpcfx3g) 
+
+* __Adapting Markov decision process for search result diversification__, (SIGIR 2017, _Xia, Long, Jun Xu, Yanyan Lan, Jiafeng Guo, Wei Zeng, and Xueqi Cheng_. [[pdf]](https://dl.acm.org/doi/pdf/10.1145/3077136.3080775?casa_token=D7p6_EICDocAAAAA:ySUupBBu2jcLjOiQAPfmNcE5eM9VfOX8ZJXLTI_RvM3ndDogAEG9A5KaAjGYv-L5WcvqjF5no8xc1g) 
+
+* __From greedy selection to exploratory decision-making: Diverse ranking with policy-value networks__, (SIGIR 2018), _Feng, Yue, Jun Xu, Yanyan Lan, Jiafeng Guo, Wei Zeng, and Xueqi Cheng_. [[pdf]](https://dl.acm.org/doi/pdf/10.1145/3209978.3209979) 
+
+* __Diversification-aware learning to rank using distributed representation__, (WWW 2021), _Yan, Le, Zhen Qin, Rama Kumar Pasumarthi, Xuanhui Wang, and Michael Bendersky_. [[pdf]](https://dl.acm.org/doi/pdf/10.1145/3442381.3449831?casa_token=AmDHmrD0SuIAAAAA:J17u8EChXpVYpkm7JOcd71l15B2LlJQnzIY5DduV0GOh4btiHnAwytp1tqQBx_5IPWzoKmbi4ekwNA) 
+
+### Explicit Approaches
+
+* __Learning to diversify search results via subtopic attention__, (SIGIR 2017), _Jiang, Zhengbao, Ji-Rong Wen, Zhicheng Dou, Wayne Xin Zhao, Jian-Yun Nie, and Ming Yue_. [[pdf]](https://dl.acm.org/doi/pdf/10.1145/3077136.3080805?casa_token=dq9HBxnzzkoAAAAA:4PvJ2d9U6lvIW2sLWdBHMcOazy-k1_e_bMHzHm0YN7EgDBk0IT5EGIFWWjfx8Ifojs8SOaiSch2FLA) 
+
+
+* __DVGAN: A minimax game for search result diversification combining explicit and implicit features__, (SIGIR 2020), _Liu, Jiongnan, Zhicheng Dou, Xiaojie Wang, Shuqi Lu, and Ji-Rong Wen_. [[pdf]](https://dl.acm.org/doi/pdf/10.1145/3397271.3401084?casa_token=tVKJs-6Fc8QAAAAA:Z98BPi8rWTPp8_Ton_JX969bw5ZhQd4o6wXvmO3aSc4uAacosQs-N4OsWvgj9KrkmU7UWCnNiStTMw) 
+
+* __Diversifying search results using self-attention network__, (CIKM 2020), _Qin, Xubo, Zhicheng Dou, and Ji-Rong Wen_. [[pdf]](https://dl.acm.org/doi/pdf/10.1145/3340531.3411914?casa_token=lpyMjM-ZjaYAAAAA:3n2qeg_edGNimO84OXgHA4ya3R1MxqwOxYE1tnX5xlDL7hlKDawYtXbM8XXfbA4Ks_qstAs5KMImVQ) 
+
+* __Managing diversity in Airbnb search__, (KDD 2020), _Abdool, Mustafa, Malay Haldar, Prashant Ramanathan, Tyler Sax, Lanbo Zhang, Aamir Manaswala, Lynn Yang, Bradley Turnbull, Qing Zhang, and Thomas Legrand_. [[pdf]](https://dl.acm.org/doi/pdf/10.1145/3394486.3403345?casa_token=-pdIr0hXuEkAAAAA:KhXY8JME8_FYIXNUFZFWtrEmvD_QiAMpYvltwJ9aXMGJXTNevh1DjYRyj7ZigFiaOph8kIhb8egwCQ) 
 
 ## Fairness-aware Re-ranking
+
+
+* __Globally Optimized Mutual Influence Aware Ranking in E-Commerce Search__, (IJCAI 2018), _Zhuang, Tao, Wenwu Ou, and Zhirong Wan_. [[pdf]](https://www.ijcai.org/proceedings/2018/0518.pdf) 
