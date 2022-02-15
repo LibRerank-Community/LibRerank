@@ -38,9 +38,9 @@ Model parameters can be set by using a config file, and specify its file path at
 ##### Parameters of `run_ranker.py`
 | argument          | usage                                                        |
 | ----------------- | ------------------------------------------------------------ |
-| `--data_dir`      | The path to the directory that saves data                    |
-| `--save_dir`      | The path to the directory that saves models and logs         |
-| `--model_type`    | The algorithm of reranker, including `DNN` and `LambdaMART`<br />**PLEASE ATTENTION**:  <br />Before training `lambdaMART`, you need to train  `DNN` to get the pre-trained embedding |
+| `--data_dir`      | The path to the directory where the data is stored           |
+| `--save_dir`      | The path to the directory where the models and logs are stored         |
+| `--model_type`    | The algorithm of reranker, including `DNN` and `LambdaMART`<br />**PLEASE ATTENTION**: Before training `lambdaMART`,  you need to train  `DNN` to <br /> get the pre-trained embedding |
 | `--setting_path`  | The path to the `json` config file, like files in `example\config` |
 | `--data_set_name` | The name of the dataset, such as `ad` and `prm`              |
 | `--epoch_num`     | The number of  epoch for `DNN` model                         |
@@ -57,8 +57,8 @@ Model parameters can be set by using a config file, and specify its file path at
 
 | argument           | usage                                                        |
 | ------------------ | ------------------------------------------------------------ |
-| `--data_dir`       | The path to the directory that saves data                    |
-| `--save_dir`       | The path to the directory that saves models and logs         |
+| `--data_dir`       | The path to the directory where the data is stored                 |
+| `--save_dir`       | The path to the directory where the models and logs are stored     |
 | `--setting_path`   | The path to the `json` config file, like files in `example\config` |
 | `--data_set_name`  | The name of the dataset, such as `ad` and `prm`              |
 | `--initial_ranker` | The name of initial ranker, including `DNN`, `lambdaMART`.   |
