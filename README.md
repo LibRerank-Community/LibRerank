@@ -120,7 +120,7 @@ The original [PRM public dataset](https://github.com/rank2rec/rerank) contains r
 
 
 ## Citation
-Please cit as:
+Please cite as:
 ```
 @article{liu2022neural,
   title={Neural Re-ranking in Multi-stage Recommender Systems: A Review},
